@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+
+
+<title>Bootstrap 实例 - 嵌套列</title>
+
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="jquery.min.js"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="bootstrap/js/bootstrap-datepicker.js"></script>
+
+
+<style type="text/css">
+
+ select{
+
+    -moz-user-select: none;
+
+    background-image: none;
+
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 0;
+
+    padding: 6px 12px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    white-space: nowrap;
+
+    background-color: #fff;
+
+    border-color: #ccc;
+
+    color: #333;
+
+ }
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+
+<h1>Hello, world!</h1>
+
+
+
+<div class="row">
+
+<div class="input-group" id="datepicker">
+
+    <span class="input-group-addon">请选择时间：</span>  
+
+    <input type="text" class="input-sm" name="start" />
+
+    <span class="input-group-addon">至</span>
+
+    <input type="text" class="input-sm" name="end" />
+
+    
+
+     <label>　区域：</label>
+
+<div class="btn-group">
+
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+
+    Action <span class="caret"></span>
+
+  </button>
+
+  <ul class="dropdown-menu" role="menu">
+
+    <li><a href="#">Action</a></li>
+
+    <li><a href="#">Another action</a></li>
+
+    <li><a href="#">Something else here</a></li>
+
+    <li class="divider"></li>
+
+    <li><a href="#">Separated link</a></li>
+
+  </ul>
+
+</div>
+
+ </div>
+
+
+</div>
+
+<button class="btn btn-default" type="button">查询</button>
+
+
+<button class="btn btn-success" type="button">导出</button>
+
+<div>
+
+    <label style="background-color: #eee;  line-height: 1;  color: #555;padding: 6px 12px;    border: 1px solid #ccc;
+
+    border-radius: 4px;    font-size: 14px;font-weight: 400;">请选择时间：</label>  
+
+    <input type="text" class="input-sm" name="start" />
+
+    <label style="background-color: #eee;  line-height: 1;  color: #555;padding: 6px 12px;    border: 1px solid #ccc;
+
+    border-radius: 4px;    font-size: 14px;font-weight: 400;">至</label>
+
+    <input type="text" class="input-sm" name="end" />    
+
+<label style="background-color: #eee;  line-height: 1;  color: #555;padding: 6px 12px;    border: 1px solid #ccc;
+
+    border-radius: 4px;    font-size: 14px;font-weight: 400;">　区域：</label>
+
+<select>
+
+    <option value=0>华北</option>
+
+    <option value=0>华东</option>
+
+    <option value=0>华南</option>
+
+</select>
+
+<button class="btn btn-default" type="button">查询</button>
+
+
+<button class="btn btn-success" type="button">导出</button>
+
+
+</div>
+
+</div>
+
+
+</body>
+
+
+</html>
