@@ -1,0 +1,25 @@
+.dash-header{
+	  padding-top:10px;	  
+}
+.dash-header-item{
+	  border-style: solid; 
+	  border-width: 1px;	  
+}
+.dash-tile-header{
+	border-style: solid; 
+	border-width: 0 0 1px 0;
+	height:30px;
+	background-color:#CAE1FF;
+}
+.dash-titile-header-data{
+	height:60px;
+	background-color:#BF3EFF;
+	text-align:center;
+	font-size:10px;
+}
+.dash-titile-header-text{
+	padding-top:5px;
+	text-indent:5px;
+}
+
+
