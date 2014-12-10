@@ -1,25 +1,40 @@
 .dash-header{
-	  padding-top:10px;	  
+	  margin-top:10px;
+	  margin-left:100px;	  
 }
 .dash-header-item{
-	  border-style: solid; 
-	  border-width: 1px;	  
+	  border-style: solid #f9f9f9; 
+	  border-width: 1px;	
+	  margin-left:30px;
+	  background-color:#3991db
 }
 .dash-tile-header{
-	border-style: solid; 
+	border-style: solid #f9f9f9; 
 	border-width: 0 0 1px 0;
 	height:30px;
-	background-color:#CAE1FF;
+	background-color:#eee;
 }
 .dash-titile-header-data{
 	height:60px;
-	background-color:#BF3EFF;
-	text-align:center;
-	font-size:10px;
+	font-size:35px;
 }
 .dash-titile-header-text{
 	padding-top:5px;
-	text-indent:5px;
+	padding-left:15px;
+}
+.col-md-2{
+	padding-left:0;
+	padding-right:0;
+}
+.data-icon{
+	padding-left:20px;
+	padding-top:12px;
+	font-size:35px;
+	color:white;
+}
+.data-icon-data{
+	padding-left:60px;
+	color:white;
 }
 
 
