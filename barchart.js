@@ -1,9 +1,9 @@
 ﻿function barchart(data){
    var margin={top:30,bottom:30,left:30,right:30};
  //图形的高度和宽度
-   var width=600-margin.left-margin.right;
+   var width=800-margin.left-margin.right;
    var height=300-margin.top-margin.bottom;
-    var svg=d3.select('#barchart1').append("svg").attr("width",600).attr("height",400)
+    var svg=d3.select('#barchart1').append("svg").attr("width",700).attr("height",350)
         .append("g")
         .attr("transform","translate("+margin.left+","+margin.top+")") ; //向下和右平移一段距离，
                                                                                                             // 但是在计算坐标的时候还是要从左上角原点为起点计算

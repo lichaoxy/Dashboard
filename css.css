@@ -37,12 +37,15 @@
 	color:white;
 }
 
+.chart{
+	  border-style: solid; 
+	  border-width: 1px;
+	  margin-top:10px;
+	  margin-left:30px;
+}
+
 //chart css
    body{ font: 12px Arial;}
-  .chart{
-   width:44%;
-   float:left;
-  }
   .axis path,
   .axis line{
    fill: none;
