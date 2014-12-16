@@ -1,11 +1,11 @@
 function piechart(piedata,piedata_ori){
  var segColor=['#807dba','#e08214','#FF83FA','#41ab5d','#EECBAD','#4EFEB3','#009100','#BB3D00','#B7FF4A','#FFD306','#613030','#AFAF61','#4F9D9D','#6C3365'];
- var textOffset = 20;
+ var textOffset = 40;
  d3.select('#piechart1 svg').remove();
  var total=d3.sum(piedata,function(d){return d.values;});
  var svgdim={w:300,h:350};
     var pieDim ={w:125, h: 125};
-    pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
+    pieDim.r = 100;
 	var r = Math.min(pieDim.w, pieDim.h) / 2;
     var piesvg = d3.select('#piechart1').append("svg")
         .attr("width", svgdim.w).attr("height", svgdim.h)

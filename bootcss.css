@@ -1,0 +1,33 @@
+.header{
+	background-color:#eff7ff;
+	margin-left:30px;
+	margin-right:40px;
+	margin-top:40px;
+	border:1px outset #96c2f1;
+}
+label{
+
+	padding-left:20px;
+	padding-right:20px;
+}
+input{
+	height:34px;
+}
+select{
+	height:34px;
+	width:100px;
+	margin-right:20px;
+}
+.table{
+	margin-left:30px;
+	margin-right:40px;
+	width:95%
+}
+.tabletitle{
+	margin-top:10px;
+	margin-left:30px;
+	width:95%;
+	background-color:#DBDBDB;
+	font-size:25px;
+	padding-left:10px;
+}
