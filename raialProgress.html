@@ -1,0 +1,37 @@
+﻿<html>
+	<script type="text/javascript" src="data.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css.css" rel="stylesheet">
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="d3.min.js"></script>
+	<script type="text/javascript" src="d3.tooltip.js"></script>
+	<script src="barchart.js"></script>
+	<script src="piechart.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function getdata(){
+			var segColor=['#807dba','#e08214','#FF83FA','#41ab5d','#EECBAD','#4EFEB3','#009100','#BB3D00','#B7FF4A','#FFD306','#613030','#AFAF61','#4F9D9D','#6C3365'];
+			var total=[100];
+			var piesvg = d3.select('#radialchart').append("svg")
+						   .attr("width", 400).attr("height", 400)
+						   .attr("transform", "translate(200,200)");
+			var arc = d3.svg.arc().outerRadius(150).innerRadius(140);
+			    arc.startAngle(0 * (Math.PI/180))
+				   .endAngle(360 * (Math.PI/180));	
+			piesvg.append("g").append("path").attr("d",arc).style("fill", "#f0a417");
+			var arc2=d3.svg.arc().outerRadius(140).innerRadius(130);
+			arc2.startAngle(0 * (Math.PI/180))
+				.endAngle(60 * (Math.PI/180));				
+			piesvg.append("g").append("path").attr("d",arc2).style("fill", "#b00d08");
+			piesvg.append("text").text("60%");
+			
+		}
+		$(function(){
+			getdata();
+		});
+	</script>
+	<body>
+		<div id="radialchart"></div>		
+	</div>
+	</body>
+</html>
